@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Finadel </title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.30/angular-ui-router.js"
+        integrity="sha512-5J08Lq3B2EfuPrNSYckUPHKYHaUhCQ4MdeObdcR0YZnr8eapZ7XMA2ejUyQYpWN+fwO48wuxsL5KDZYIVVVxvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+TAS+Beginner&family=Montserrat&family=Work+Sans:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+TAS+Beginner&family=Montserrat&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-app="myapp">
+    <div ui-view>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container-fluid">
+                <img src="Images/logo.png" alt="logo" srcset="" width="70px" height="60px">
+                <a class="navbar-brand" href="#">Finadel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <center>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item" id="hover1">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item" id="hover2">
+                                <a class="nav-link active" href="#">Shops</a>
+                            </li>
+                            <li class="nav-item" id="hover3">
+                                <a class="nav-link active" href="#">Trending</a>
+                            </li>
+                        </ul>
+                    </center>
+
+                </div>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success" id="login" type="submit" ui-sref="adminlogin">Admin
+                    </button>
+                    <button class="btn" id="signup" ui-sref="shopk">Shopkeeper</button>
+                    <button class="btn btn-outline-success" id="login" type="submit" ui-sref="login">Sign in </button>
+                    <button class="btn" id="signup" ui-sref="register">Sign up</button>
+                </form>
+            </div>
+        </nav>
+        <div id="main">
+            <center> <img src="Images/logo2.png" alt="" srcset="" id="image1" width="350px" height="250px">
+                <h1 id="name"> Finadel </h1>
+                <h1 id="heading"> Everything at your Doorstep </h1>
+                <br>
+                <img src="https://minimoglanding-4437.kxcdn.com/assets/images/buy_once_payment.jpg" class="img-hover"
+                    alt="" srcset="" width="200px" height="200px">
+                <img src="Images/Screenshot 2022-07-12 at 4.52.23 PM.png" alt="" srcset="" class="img-hover" id="midimg"
+                    width="200px" height="200px">
+                <img src="Images/Screenshot 2022-08-23 at 2.40.48 PM.png" class="img-hover" alt="carousel-control-prev"
+                    srcset="" width="200px" height="200px">
+            </center>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000">
+            <h1 id="mega"> <b> Mega Menu </b></h1>
+            <img src="http://wp.alithemes.com/html/nest/landing/assets/imgs/img-6.png" alt="" srcset="" id="megaimg2">
+            <img src="Images/Screenshot 2022-07-12 at 8.40.59 PM.png" alt="" srcset="" width="800px" class="img-hover"
+                height="500px" id="megaimg">
+        </div>
+        <div id="des">
+
+            <div id="descrip1">
+                <center>
+                    <h1 class="orange"> Dropdown </h1>
+                    <h3 class="green"> Categories </h3>
+                    <img src="Images/dropdown.png" class="img-hover" alt="" srcset="" id="dropdown" width="400px">
+                </center>
+            </div>
+            <div id="descrip2">
+                <center>
+                    <h1 class="orange"> Pop -up </h1>
+                    <h3 class="green"> Quick View </h3>
+                    <img src="Images/quickview.png" class="img-hover" alt="" srcset="" id="quick" width="400px"
+                        height="355px">
+                </center>
+            </div>
+
+        </div>
+
+        <div id="des2">
+
+            <div id="descrip3">
+                <center>
+                    <h1 class="orange"> Tabs </h1>
+                    <h3 class="green"> Categories </h3>
+                    <img src="Images/categories2.png" class="img-hover" alt="" srcset="" id="dropdown" width="600px"
+                        height="250px">
+                </center>
+            </div>
+            <div id="descrip4">
+                <center>
+                    <h1 class="orange"> Deals </h1>
+                    <h3 class="green"> Countdown </h3>
+                    <img src="Images/count.png" class="img-hover" alt="" srcset="" id="quick" width="600px"
+                        height="250px">
+                </center>
+            </div>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="3000">
+            <h1 class="orange" id="filter">Filter </h1>
+            <h3 class="green" id="products"> Products </h3>
+
+
+            <img src="Images/Filter.png" class="img-hover" alt="" srcset="" id="filterimg" width="1250px">
+
+        </div>
+        <div id="shop">
+            <center>
+                <h1 id="mplace" class="orange"> <b> Marketplace </b> </h1>
+            </center>
+            <center>
+                <h1 id="vendor" class="green"> Multi Vendors </h1>
+            </center>
+
+            <img src="Images/1.png" alt="" srcset="" id="mplaceimg1" class="img-hover" width="300px" height="300px">
+            <img src="Images/2.png" alt="" srcset="" id="mplaceimg2" class="img-hover" width="300px" height="300px">
+            <img src="Images/3.png" alt="" srcset="" id="mplaceimg3" class="img-hover" width="300px" height="300px">
+            <img src="Images/4.png" alt="" srcset="" id="mplaceimg4" class="img-hover" width="300px" height="300px">
+
+        </div>
+        <div id="fimg" data-aos="fade-up" data-aos-duration="3000">
+            <img src="Images/f1.png" alt="" srcset="" id="f1" class="img-hover" width="240px" height="120px">
+            <img src="Images/f2.png" alt="" srcset="" id="f2" class="img-hover" width="240px" height="120px">
+            <img src="Images/f3.png" alt="" srcset="" id="f3" class="img-hover" width="240px" height="120px">
+            <img src="Images/f4.png" alt="" srcset="" id="f4" class="img-hover" width="240px" height="120px">
+            <img src="Images/f5.png" alt="" srcset="" id="f5" class="img-hover" width="240px" height="120px">
+        </div>
+        <div>
+
+            <center>
+                <h3 id="get" class="orange"> Get Started </h3>
+            </center>
+            <center>
+                <h1 class="green"> Purchase with us </h1>
+            </center>
+            <center>
+                <div id="lastb">
+                    <p id="log"> <i class="fa-solid fa-cart-shopping"></i> Purchase Now</p>
+                </div>
+            </center>
+        </div>
+        <br>
+        <br>
+        <div id="text5" data-aos="zoom-in" data-aos-duration="3000">
+
+            <center>
+                <h1> Experience Finadel on any device </h1>
+            </center>
+
+            <center>
+                <p>Finadel works on all major platforms, enabling you to work seamlessly across your <br> browser,
+                    mobile device,
+                    tablet, and computer.</p>
+            </center>
+            <center> <img
+                    src="https://kstatic.googleusercontent.com/files/540ac1df440f3a3708b6f31b7fa0c4fd7fd4471dc0614cab5482e110dee791fd6492b009e67d1bbc3467bd6ac63785f5120cb8070ab95de32830c63975290455"
+                    alt="" srcset=""> <img
+                    src="https://kstatic.googleusercontent.com/files/6e1905e140550741a844d866fa3fd7c11f4a9d6cb84081b66fe973ee7c0afd03e548ccf9cdf7d671c9d3f301e593b53bc2050a06d900daf13acb0b267d88e691"
+                    alt="" srcset=""></center>
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <footer id="foot">
+
+                <hr id="footer">
+                <!-- <img src="https://templates.iqonic.design/cloudbox/html/assets/images/logo.png" alt="" id="img9" srcset="" width="150px" height="60px"> -->
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="Images/logo.png" alt="" srcset="" width="80px"
+                                height="60px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="#">Privacy </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Terms </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">About</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+
+                                <li class="nav-item" id="help">
+                                    <a class="nav-link " href="#"> <i style="font-size:24px" class="fa">&#xf059;</i>
+                                        Help</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Language
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">English</a></li>
+                                        <li><a class="dropdown-item" href="#">Hindi </a></li>
+                                        <li><a class="dropdown-item" href="#">Spanish</a></li>
+                                    </ul>
+                                </li>
+
+
+                            </form>
+
+                        </div>
+                    </div>
+                </nav>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+<script src="index.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
