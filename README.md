@@ -43,7 +43,7 @@ This repository contains the assets required to build the [ FINADEL ](https://fi
 Thanks a lot for spending your time helping us grow. Thanks a lot! Keep rocking 🍻
 <p> 
  
-[![Contributors](https://contrib.rocks/image?repo=finadel1/Finadel_Website)](https://github.com/Finadel1/Finadel_Website)
+[![Contributors](https://contrib.rocks/image?repo=devanshu0605/Finadel)](https://github.com/devanshu0605/Finadel)
  
 </p>
 
