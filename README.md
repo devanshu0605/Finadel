@@ -13,7 +13,7 @@
 
 This repository contains the assets required to build the [ FINADEL ](https://devanshu0605.github.io/Finadel/) Website . 
 
-We have deployed our website on Blockchain [ FINADEL ](This repository contains the assets required to build the [ FINADEL ](https://devanshu0605.github.io/Finadel/) Website . ) . 
+We have deployed our website on Blockchain [ FINADEL ](https://spheron.infura-ipfs.io/ipfs/QmYaAJsi1jjcLRrsQnsRLKhhJqcGiiX84Fh5QuaWH5UeDH/) Website . ) . 
 
 
 # An overview of the website
